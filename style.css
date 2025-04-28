@@ -171,8 +171,8 @@ section {
 }
 
 .profile-img img{
-  width: 50rem;
   border-radius: 50%;
+  height: auto;
 }
 
 .section__pic-container {
