@@ -171,7 +171,8 @@ section {
 }
 
 .profile-img img{
-  
+  width: 100%;
+  max-width: 300px;
   border-radius: 50%;
   height: auto;
 }
