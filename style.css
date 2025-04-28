@@ -171,6 +171,7 @@ section {
 }
 
 .profile-img img{
+  
   border-radius: 50%;
   height: auto;
 }
@@ -435,13 +436,4 @@ footer {
 
 footer p {
   text-align: center;
-}
-
-
-@media screen and (max-width: 600px) {
-    .section__pic-container {
-        /* width: auto; */
-        height: 46vw;
-        justify-content: center;
-    }
 }
