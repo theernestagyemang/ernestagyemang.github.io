@@ -1,14 +1,13 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
+    min-height: 78vh;
+    margin-bottom: 4rem;
   }
   .about-containers {
     flex-wrap: wrap;
   }
-  #contact,
-  #projects {
-    height: fit-content;
+  .about-containers .details-container {
+    flex-basis: calc(50% - 1.5rem);
   }
 }
 
@@ -45,23 +44,26 @@
   .about-containers {
     margin-top: 0;
   }
+  .about-containers .details-container {
+    flex-basis: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
-  footer {
-    height: 40vh;
+  #contact {
+    min-height: 32vh;
   }
   #profile {
-    height: 83vh;
+    min-height: 78vh;
     margin-bottom: 0;
   }
   article {
     font-size: 1rem;
+    width: 100%;
   }
   footer nav {
     height: fit-content;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   .about-containers,
   .contact-info-upper-container,
@@ -69,7 +71,7 @@
     flex-wrap: wrap;
   }
   .contact-info-container {
-    margin: 0;
+    margin: 0.5rem;
   }
   .contact-info-container p,
   .nav-links li a {
@@ -88,15 +90,22 @@
   }
   .section__pic-container {
     height: 46vw;
+    width: 46vw;
     justify-content: center;
   }
   .section__text__p2 {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
   }
   .title {
     font-size: 2rem;
   }
   .text-container {
     text-align: justify;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .project-card .btn-container {
+    justify-content: center;
   }
 }

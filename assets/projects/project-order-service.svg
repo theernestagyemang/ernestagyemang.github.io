@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="ProductOrderService API">
+  <defs>
+    <linearGradient id="g-project-order-service" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <radialGradient id="g-project-order-service-glow" cx="80%" cy="15%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g-project-order-service)"/>
+  <rect width="800" height="500" fill="url(#g-project-order-service-glow)"/>
+  <circle cx="90" cy="80" r="140" fill="#ffffff" opacity="0.06"/>
+  <circle cx="700" cy="440" r="170" fill="#000000" opacity="0.08"/>
+  <g transform="translate(40,36)">
+    <circle cx="0" cy="0" r="7" fill="#ffffff" opacity="0.55"/>
+    <circle cx="24" cy="0" r="7" fill="#ffffff" opacity="0.4"/>
+    <circle cx="48" cy="0" r="7" fill="#ffffff" opacity="0.28"/>
+  </g>
+  <text x="40" y="90" font-family="Poppins, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="3" fill="#ffffff" opacity="0.75">GRAPHQL API</text>
+  <g transform="translate(320,150) scale(2.1)">
+    
+<g fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M -40 -14 L 0 -32 L 40 -14 L 0 4 Z"/>
+  <path d="M -40 -14 V 26 L 0 44 L 40 26 V -14"/>
+  <line x1="0" y1="4" x2="0" y2="44"/>
+</g>
+
+  </g>
+  <text x="40" y="420" font-family="Poppins, Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">ProductOrder</text>
+  <text x="40" y="462" font-family="Poppins, Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">Service</text>
+</svg>

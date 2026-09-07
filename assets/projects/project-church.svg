@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="The Apostolic Church International UK South website">
+  <defs>
+    <linearGradient id="g-project-church" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <radialGradient id="g-project-church-glow" cx="80%" cy="15%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g-project-church)"/>
+  <rect width="800" height="500" fill="url(#g-project-church-glow)"/>
+  <circle cx="90" cy="80" r="140" fill="#ffffff" opacity="0.06"/>
+  <circle cx="700" cy="440" r="170" fill="#000000" opacity="0.08"/>
+  <g transform="translate(40,36)">
+    <circle cx="0" cy="0" r="7" fill="#ffffff" opacity="0.55"/>
+    <circle cx="24" cy="0" r="7" fill="#ffffff" opacity="0.4"/>
+    <circle cx="48" cy="0" r="7" fill="#ffffff" opacity="0.28"/>
+  </g>
+  <text x="40" y="90" font-family="Poppins, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="3" fill="#ffffff" opacity="0.75">COMMUNITY WEBSITE</text>
+  <g transform="translate(320,150) scale(2.1)">
+    
+<g fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M 0 -40 L 14 -24 H -14 Z"/>
+  <line x1="0" y1="-40" x2="0" y2="-52"/>
+  <line x1="-6" y1="-52" x2="6" y2="-52"/>
+  <rect x="-34" y="-24" width="68" height="64"/>
+  <line x1="0" y1="-24" x2="0" y2="40"/>
+  <rect x="-12" y="10" width="24" height="30"/>
+</g>
+
+  </g>
+  <text x="40" y="420" font-family="Poppins, Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">Apostolic Church</text>
+  <text x="40" y="462" font-family="Poppins, Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">Int'l – UK South</text>
+</svg>
